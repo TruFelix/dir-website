@@ -26,8 +26,8 @@ export default function EvarLayout({
 					<Link className="s5 e8 ph-e5 hCenter" href="/" title="Evar">
 						<ThemedImg
 							alt='Evar'
-							lightsrc="/dir-websiteimg/EvarTextLogo.svg"
-							darksrc="/dir-websiteimg/EvarTextLogo-Dark.svg"
+							lightsrc="/dir-website/img/EvarTextLogo.svg"
+							darksrc="/dir-website/img/EvarTextLogo-Dark.svg"
 						/>
 					</Link>
 					<Link className="s9 e12 ph-e5 hCenter" href="/aboutUs" title="AboutUs">
@@ -50,7 +50,7 @@ export default function EvarLayout({
 						<div className="s11 e12 ph-s1 ph-e5 vBottom hRight ph-hUnset vPad tUnitPad">
 							<p>A field of</p>
 							<Link href="https://zentru.systems" title="Zentru Systems e.U.">
-								<img style={{ height: 25 }} src="/dir-websiteimg/Brightness=Dark,Color=Green.svg" loading="lazy" />
+								<img style={{ height: 25 }} src="/dir-website/img/Brightness=Dark,Color=Green.svg" loading="lazy" />
 							</Link>
 						</div>
 						<div className="s11 e12 ph-s1 ph-e5 vBottom hRight ph-hUnset bUnitPad">
