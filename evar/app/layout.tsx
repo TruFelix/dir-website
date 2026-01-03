@@ -54,14 +54,17 @@ export default function EvarLayout({
 							</Link>
 						</div>
 						<div className="s11 e12 ph-s1 ph-e5 vBottom hRight ph-hUnset bUnitPad">
-							<Link href="/impressum">
-								<p>Impressum</p>
+							<Link href="/imprint" title="Imprint">
+								<p>Imprint</p>
 							</Link>
-							<Link href="/privacy-policy">
+							<Link href="/privacy-policy" title="Privacy Policy">
 								<p>Privacy Policy</p>
 							</Link>
-							<Link href="/barrierefreiheitserklaerung">
+							<Link href="/barrierefreiheitserklaerung" title="Barrierefreiheitserklärung">
 								<p>Barrierefreiheitserklärung</p>
+							</Link>
+							<Link href="/legal" title="Legal">
+								<p>Legal</p>
 							</Link>
 						</div>
 					</footer>
