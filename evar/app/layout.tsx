@@ -18,19 +18,19 @@ export default function EvarLayout({
 	return (<>
 		<html lang="en">
 			<FixFavicon
-				darkSrc="./faviconLight/favicon.png"
-				lightSrc="./faviconDark/favicon.png"
+				darkSrc="/dir-website/faviconLight/favicon.png"
+				lightSrc="/dir-website/faviconDark/favicon.png"
 			/>
 			<body style={{ overflowX: 'hidden', overflowY: 'scroll' }}>
 				<nav className="hGrid fixed glass v10Pad hFill">
 					<Link className="s5 e8 ph-e5 hCenter" href="/" title="Evar">
 						<ThemedImg
 							alt='Evar'
-							lightsrc="./img/EvarTextLogo.svg"
-							darksrc="./img/EvarTextLogo-Dark.svg"
+							lightsrc="/dir-websiteimg/EvarTextLogo.svg"
+							darksrc="/dir-websiteimg/EvarTextLogo-Dark.svg"
 						/>
 					</Link>
-					<Link className="s9 e12 ph-e5 hCenter" href="./aboutUs" title="AboutUs">
+					<Link className="s9 e12 ph-e5 hCenter" href="/aboutUs" title="AboutUs">
 						<p>About Us</p>
 					</Link>
 				</nav>
@@ -50,20 +50,20 @@ export default function EvarLayout({
 						<div className="s11 e12 ph-s1 ph-e5 vBottom hRight ph-hUnset vPad tUnitPad">
 							<p>A field of</p>
 							<Link href="https://zentru.systems" title="Zentru Systems e.U.">
-								<img style={{ height: 25 }} src="./img/Brightness=Dark,Color=Green.svg" loading="lazy" />
+								<img style={{ height: 25 }} src="/dir-websiteimg/Brightness=Dark,Color=Green.svg" loading="lazy" />
 							</Link>
 						</div>
 						<div className="s11 e12 ph-s1 ph-e5 vBottom hRight ph-hUnset bUnitPad">
-							<Link href="./imprint" title="Imprint">
+							<Link href="/imprint" title="Imprint">
 								<p>Imprint</p>
 							</Link>
-							<Link href="./privacy-policy" title="Privacy Policy">
+							<Link href="/privacy-policy" title="Privacy Policy">
 								<p>Privacy Policy</p>
 							</Link>
-							<Link href="./barrierefreiheitserklaerung" title="Barrierefreiheitserklärung">
+							<Link href="/barrierefreiheitserklaerung" title="Barrierefreiheitserklärung">
 								<p>Barrierefreiheitserklärung</p>
 							</Link>
-							<Link href="./legal" title="Legal">
+							<Link href="/legal" title="Legal">
 								<p>Legal</p>
 							</Link>
 						</div>

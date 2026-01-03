@@ -5,7 +5,7 @@ export default function EvarPage() {
 		<div className="s0 e13 ph-e6 tPad ph-tPadResp hGrid hFill">
 			<div id="debris-card" className="s1 e12 ph-s0 ph-e6 ph-hUnitMarg allRoundBig ph-allRoundBigResp bg-l1 Container pulsingShadow" style={{ boxShadow: "#ffffff3d 0px 0px 45px 0px" }}>
 				<div style={{ maxHeight: "75vh" }}>
-					<img className="hFill allRoundBig ph-allRoundBigResp" src="./img/debris_screenshot_01.png" alt="a modular drone flying in space collecting debris, with clunky 80s style console" />
+					<img className="hFill allRoundBig ph-allRoundBigResp" src="/dir-website/img/debris_screenshot_01.png" alt="a modular drone flying in space collecting debris, with clunky 80s style console" />
 				</div>
 				<div className="tUnitPad Pad ph-PadResp fg-white-fix bg-d4-fixed">
 					<h2>Get In — save Mars</h2>
@@ -29,7 +29,7 @@ export default function EvarPage() {
 					<HiddenButton
 						className="s1 e12 ph-s1 ph-e5 hShrink hCenter hoverZoom fg-l1 hover-fg-l3"
 						style={{ padding: "max(1%, 8px)", fontSize: "0.8em" }}
-						href="./PressKit">
+						href="/dir-website/PressKit">
 						Press Kit
 					</HiddenButton>
 				</div>
