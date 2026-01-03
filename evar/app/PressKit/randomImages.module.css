@@ -1,0 +1,15 @@
+.main {
+	display: grid;
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(1fr, 75px));
+	gap: var(--normalResponsivePadding);
+	height: 50vh;
+}
+
+.gridItem {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

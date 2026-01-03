@@ -1,0 +1,19 @@
+nav {
+	height: var(--nav-height);
+}
+
+nav img {
+	max-height: var(--nav-content-height);
+}
+
+.TreeNode>* {
+	color: var(--l4) !important;
+}
+
+.TreeNode:hover * {
+	color: var(--l3) !important;
+}
+
+#steamWidget {
+
+}
